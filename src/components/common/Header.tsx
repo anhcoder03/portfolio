@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { listMenu } from "../../utils/ListMenu";
 const Header: React.FC = () => {
   return (
-    <div className="bg-dark py-8 fixed top-0 left-0 right-0 z-50">
+    <div className="bg-dark py-7 fixed top-0 left-0 right-0 z-50">
       <div className="container">
         <div className="flex items-center justify-between">
           <div>
@@ -21,7 +21,7 @@ const Header: React.FC = () => {
                 to={item.path}
                 key={item.title}
                 className={({ isActive }) =>
-                  isActive ? "text-primary" : "text-white"
+                  isActive ? "text-primary text-lg" : "text-white text-lg"
                 }
               >
                 <span>{item.title}</span>
