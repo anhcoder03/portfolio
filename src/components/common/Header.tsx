@@ -15,7 +15,7 @@ const Header: React.FC = () => {
               </Link>
             </div>
           </div>
-          <div className="flex items-center gap-x-16">
+          <div className="lg:flex hidden items-center gap-x-16">
             {listMenu.map((item) => (
               <NavLink
                 to={item.path}

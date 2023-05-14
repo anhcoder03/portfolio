@@ -10,8 +10,8 @@ export const listMenu: IListMenu[] = [
     path: "/",
   },
   {
-    title: "About",
-    path: "/about",
+    title: "Skill",
+    path: "/skill",
   },
   {
     title: "Project",

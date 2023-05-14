@@ -17,7 +17,7 @@ const TextAnimation: React.FC = () => {
         1000,
       ]}
       repeat={Infinity}
-      className="text-primary text-5xl font-bold"
+      className="text-primary lg:text-5xl text-2xl font-bold"
     ></TypeAnimation>
   );
 };

@@ -14,3 +14,15 @@
   width: 100%;
   margin: 0 auto;
 }
+
+.shadown-bg {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #9a86fd33 0%,
+    rgba(17, 23, 41, 0) 100%
+  );
+}
+
+.bg-secondary {
+  background-color: rgb(17 23 41/1);
+}
