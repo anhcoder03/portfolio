@@ -13,7 +13,7 @@ const ListToolUsed: React.FC = () => {
           {listTools.map((item) => (
             <div
               key={item.src}
-              className="flex flex-col items-center justify-center  relative border border-primary p-10 rounded-lg transition-all duration-500 cursor-pointer hover:scale-110"
+              className="flex flex-col items-center justify-center  relative border border-primary p-10 rounded-lg transition-all duration-500 cursor-pointer hover:scale-110 h-[150px]"
             >
               <img
                 src={item.src}

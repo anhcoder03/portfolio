@@ -27,4 +27,16 @@ export const listSkill: IListSkill[] = [
   {
     src: "/images/redux.png",
   },
+  {
+    src: "/images/sass.png",
+  },
+  {
+    src: "/images/nodejs.png",
+  },
+  {
+    src: "/images/boostrap.png",
+  },
+  {
+    src: "/images/firebase.png",
+  },
 ];

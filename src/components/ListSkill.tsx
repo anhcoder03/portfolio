@@ -13,12 +13,12 @@ const ListSkill: React.FC = () => {
           {listSkill.map((item) => (
             <div
               key={item.src}
-              className="flex flex-col items-center justify-center  relative border border-primary p-10 rounded-lg transition-all duration-500 cursor-pointer hover:scale-110"
+              className="flex flex-col items-center justify-center  relative border border-primary p-10 rounded-lg transition-all duration-500 cursor-pointer hover:scale-110 h-[150px]"
             >
               <img
                 src={item.src}
                 alt={item.src}
-                className="h-full w-full max-w-[67px] max-h-[67px]"
+                className="h-full w-full max-w-[70px] max-h-[70px] "
                 loading="lazy"
               />
             </div>
