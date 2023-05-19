@@ -9,7 +9,7 @@ const ListSkill: React.FC = () => {
       <div className="absolute w-[250px] h-[250px] bg-opacity-10 bg-primary rounded-full top-72 -right-16"></div>
       <div className="container py-20">
         <Heading>MY SKILLS</Heading>
-        <div className="grid lg:grid-cols-4 grid-cols-2 lg:px-0 px-3 gap-10  mt-16">
+        <div className="grid grid-cols-2 gap-10 px-3 mt-16 lg:grid-cols-4 lg:px-0">
           {listSkill.map((item) => (
             <div
               key={item.src}

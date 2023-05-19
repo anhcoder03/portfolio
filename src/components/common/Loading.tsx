@@ -1,6 +1,6 @@
-// import React from "react";
+import React from "react";
 
-const Loading = () => {
+const Loading: React.FC = () => {
   return (
     <div className="min-h-screen flex justify-center items-center bg-black">
       <div className="loader bg-white p-5 rounded-full flex space-x-3">
