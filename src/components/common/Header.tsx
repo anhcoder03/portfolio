@@ -10,7 +10,7 @@ const Header: React.FC = () => {
             <div>
               <Link to={"/"}>
                 <span className="font-bold text-2xl text-primary">
-                  {"< Anhcoder03 />"}
+                  {"< FiAnh Sợ Yêu />"}
                 </span>
               </Link>
             </div>
