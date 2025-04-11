@@ -15,7 +15,7 @@ export const listContact: IListContact[] = [
   },
   {
     icon: IconFacebook,
-    link: "https://facebook.com/anhcoder03",
+    link: "https://facebook.com/fianh16",
   },
   {
     icon: IconEmail,
