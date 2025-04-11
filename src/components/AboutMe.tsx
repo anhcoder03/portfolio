@@ -39,13 +39,13 @@ const AboutMe: React.FC = () => {
               <h3 className="text-xl mb-5">Information</h3>
               <div>
                 <p>
-                  Year of Birth: <span>2003</span>
+                  Year of Birth: <span>Private</span>
                 </p>
                 <p>
-                  Address: <span>Ha Noi, Viet Nam</span>
+                  Address: <span>Taiwan</span>
                 </p>
                 <p>
-                  Email: <span>anhcoder03@gmail.com</span>
+                  Email: <span>fianh16@gmail.com</span>
                 </p>
                 <p>
                   Phone: <span>035 798 4421</span>
